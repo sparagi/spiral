@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BEL 6/24/2005 19:44",
+	"super" : "AlignmentMorph",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [
+		"SpiralOperationCategories"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"notebook"
+	],
+	"name" : "SpiralOperator",
+	"type" : "normal"
+}

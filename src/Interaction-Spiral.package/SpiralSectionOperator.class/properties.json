@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BEL 6/26/2005 13:08",
+	"super" : "SpiralButtonBar",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpiralSectionOperator",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+accessing
+editorBounds
+
+	^self labelRectangle

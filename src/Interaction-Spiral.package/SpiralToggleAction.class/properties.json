@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "BEL 7/14/2005 17:01",
+	"super" : "SpiralAction",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stateDetectionSend",
+		"buttonOffIcon"
+	],
+	"name" : "SpiralToggleAction",
+	"type" : "normal"
+}

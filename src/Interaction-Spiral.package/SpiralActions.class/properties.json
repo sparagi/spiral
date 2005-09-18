@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "OrderedCollection",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"help"
+	],
+	"name" : "SpiralActions",
+	"type" : "normal"
+}

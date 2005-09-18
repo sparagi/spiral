@@ -1,0 +1,4 @@
+defaults
+defaultOnColor
+
+	^Color red

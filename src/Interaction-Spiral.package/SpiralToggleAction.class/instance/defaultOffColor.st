@@ -1,0 +1,3 @@
+defaults
+defaultOffColor
+	^Color transparent

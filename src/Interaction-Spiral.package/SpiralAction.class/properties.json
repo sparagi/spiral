@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "BEL 7/14/2005 17:11",
+	"super" : "OBAction",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"help",
+		"buttonIcon"
+	],
+	"name" : "SpiralAction",
+	"type" : "normal"
+}

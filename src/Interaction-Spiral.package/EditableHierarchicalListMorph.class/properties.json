@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SimpleHierarchicalListMorph",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EditableHierarchicalListMorph",
+	"type" : "normal"
+}

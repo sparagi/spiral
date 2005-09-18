@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "SpiralOperator",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [
+		"SpiralOperationCategories"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonCategories",
+		"buttonCache",
+		"buttonRow",
+		"categoryEndIndex",
+		"categoryStartIndex",
+		"transform",
+		"scrollLeft",
+		"scrollRight"
+	],
+	"name" : "SpiralButtonBar",
+	"type" : "normal"
+}

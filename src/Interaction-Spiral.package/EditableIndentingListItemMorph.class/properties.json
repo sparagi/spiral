@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IndentingListItemMorph",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EditableIndentingListItemMorph",
+	"type" : "normal"
+}

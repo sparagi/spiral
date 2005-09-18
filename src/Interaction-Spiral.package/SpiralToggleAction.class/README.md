@@ -1,0 +1,1 @@
+My instances are Actions which involve toggling a boolean state.

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PluggableListItemWrapper",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"putStringSelector"
+	],
+	"name" : "EditableListItemWrapper",
+	"type" : "normal"
+}
