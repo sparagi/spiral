@@ -3,9 +3,7 @@
 	"super" : "SpiralButtonBar",
 	"category" : "Interaction-Spiral",
 	"classinstvars" : [ ],
-	"pools" : [
-		"SpiralOperationCategories"
-	],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "SpiralPageOperator",

@@ -3,9 +3,7 @@
 	"super" : "SpiralOperator",
 	"category" : "Interaction-Spiral",
 	"classinstvars" : [ ],
-	"pools" : [
-		"SpiralOperationCategories"
-	],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonCategories",

@@ -5,9 +5,7 @@
 	"classinstvars" : [
 		"DefaultVolume"
 	],
-	"pools" : [
-		"SpiralOperationCategories"
-	],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"volume",

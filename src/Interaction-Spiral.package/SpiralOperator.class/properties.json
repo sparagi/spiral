@@ -3,9 +3,7 @@
 	"super" : "AlignmentMorph",
 	"category" : "Interaction-Spiral",
 	"classinstvars" : [ ],
-	"pools" : [
-		"SpiralOperationCategories"
-	],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"notebook"
