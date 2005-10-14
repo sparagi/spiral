@@ -1,3 +1,0 @@
-accessing
-withoutListWrapper
-	^ model withoutListWrapper
