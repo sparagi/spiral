@@ -1,4 +1,4 @@
-accessing
+initialization
 spacer
 	"Answer an appropriate spacer morph."
 	

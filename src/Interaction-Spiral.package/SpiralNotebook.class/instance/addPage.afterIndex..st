@@ -6,7 +6,7 @@ addPage: aMorph afterIndex: anInteger
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
 	pages add: aMorph afterIndex: anInteger.
-	self changed: #sectionNavigationOperations.
+	self triggerEvent: #sectionNavigationActions.
 	currentPage ifNil: 
 			[self goToPage: aMorph.
 			self extent: self defaultExtent]

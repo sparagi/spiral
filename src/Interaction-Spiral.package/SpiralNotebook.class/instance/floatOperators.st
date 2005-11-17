@@ -1,4 +1,4 @@
-event handling
+layout
 floatOperators
 	"Make my embedded operators float."
 

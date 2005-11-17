@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "HumanInterfaceAction",
+	"category" : "Interaction-Spiral-Actions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpiralSettingsSectionAction",
+	"type" : "normal"
+}

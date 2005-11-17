@@ -4,14 +4,14 @@ buttonCategoryIndexFor: newActionCategory
 
 	| previousAction actionFound |
 	actionFound := false.
-	self buttonCategories.
-	self allButtonCategories do: [:buttonCategory |
+	self visibleButtonCategories.
+	self allButtonActions do: [:buttonCategory |
 		actionFound ifFalse: [
 			buttonCategory = newActionCategory
 				ifTrue: [actionFound := true]
 				ifFalse: [
-					(buttonCategories includes: buttonCategory) ifTrue: [
+					(visibleButtonCategories includes: buttonCategory) ifTrue: [
 						previousAction := buttonCategory]]]].
 	^previousAction
 		ifNil: [0]
-		ifNotNil: [buttonCategories indexOf: previousAction]
+		ifNotNil: [visibleButtonCategories indexOf: previousAction]

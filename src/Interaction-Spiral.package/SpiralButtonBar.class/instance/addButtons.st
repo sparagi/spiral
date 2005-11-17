@@ -1,14 +1,14 @@
 initialization
 addButtons
 	"Add my submorphs."
-	self buttonCategories
-		do: [:categoryAction | 
-			| buttons | 
-			buttons := categoryAction value buttons.
+
+	self visibleButtonCategories do: 
+			[:categoryAction | 
+			| buttons |
+			buttons := (MorphicButtonAction wrapAll: categoryAction value) collect: [:interfaceAction |
+				interfaceAction control].
 			buttonCache at: categoryAction put: buttons.
-			buttons size > 0
-				ifTrue: [| spacer | 
+			buttons ifNotEmpty: [| spacer |
 					spacer := self spacer.
-					spacer
-						ifNotNil: [buttonRow addMorphBack: spacer].
+					spacer ifNotNil: [buttonRow addMorphBack: spacer].
 					buttonRow addAllMorphs: buttons]]

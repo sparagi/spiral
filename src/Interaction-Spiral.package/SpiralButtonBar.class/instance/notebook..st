@@ -8,7 +8,7 @@ notebook: aNotebook
 	submorphsCopy do: [:m |
 		m release].
 	super notebook: aNotebook.
-	buttonCategories := nil.
+	self intializeVisibleButtonCategories.
 	buttonCache := Dictionary new.
 	self initializeColors.
 	self addButtons

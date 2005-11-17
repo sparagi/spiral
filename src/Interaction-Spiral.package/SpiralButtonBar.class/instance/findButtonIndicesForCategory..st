@@ -11,7 +11,7 @@ findButtonIndicesForCategory: aSpiralAction
 			[| beforeSymbol |
 			categoryStartIndex := 1.
 			beforeSymbol := true.
-			self buttonCategories do: 
+			self visibleButtonCategories do: 
 					[:each | 
 					each = aSpiralAction ifTrue: [beforeSymbol := false].
 					beforeSymbol 

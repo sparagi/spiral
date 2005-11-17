@@ -1,17 +1,19 @@
 accessing
-toggleVisibilityOfButtons: aSpiralAction 
-	"Answer the visibility of buttons in the category corresponding to aSpiralAction."
+toggleVisibilityOfButtons: anAction 
+	"Answer the visibility of buttons in the category corresponding to anAction."
 
-	(self buttonCategories includes: aSpiralAction) 
+	(self visibleButtonCategories includes: anAction) 
 		ifTrue: [
-			self removeButtonsInCategory: aSpiralAction.
-			buttonCategories remove: aSpiralAction]
+			self removeButtonsInCategory: anAction.
+			visibleButtonCategories remove: anAction.
+			self unregisterForEvents: anAction]
 		ifFalse: [
-			(self allButtonCategories includes: aSpiralAction)
+			(self allButtonActions includes: anAction)
 				ifTrue: [
-					buttonCategories
-						add: aSpiralAction 
-						afterIndex: (self buttonCategoryIndexFor: aSpiralAction).
-					buttonCache at: aSpiralAction put: SpiralActions new.
-					self updateButtonCategory: aSpiralAction]
+					visibleButtonCategories
+						add: anAction 
+						afterIndex: (self buttonCategoryIndexFor: anAction).
+					buttonCache at: anAction put: OrderedCollection new.
+					self updateButtonCategory: anAction.
+					self registerForEvents: anAction]
 				ifFalse: [self error: 'cannot add unsupported category']]

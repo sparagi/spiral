@@ -1,4 +1,4 @@
-event handling
+layout
 enterFullScreen
 	"Enter full screen mode."
 

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PluggableButtonMorph",
+	"category" : "Interaction-Spiral",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpiralButtonMorph",
+	"type" : "normal"
+}

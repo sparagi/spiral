@@ -1,4 +1,4 @@
-accessing
+event handling
 removeButtonsInCategory: actionCategory
 	"Remove my submorphs which are buttons in actionCategory."
 

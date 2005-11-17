@@ -1,4 +1,4 @@
-event handling
+layout
 exitFullScreen
 	"Exit full screen mode."
 

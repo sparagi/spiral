@@ -3,6 +3,7 @@ removeEverything
 	"Empty myself."
 	currentPage
 		ifNotNil: [self removeMorph: currentPage.
-			currentPage := nil].
+			currentPage := nil.
+			self triggerEvent: #currentPage].
 	pages := OrderedCollection new.
-	self needsWork "what about resetting operators?"
+	self triggerEvent: #sectionNavigationActions

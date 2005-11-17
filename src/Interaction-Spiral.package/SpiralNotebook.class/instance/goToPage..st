@@ -11,4 +11,4 @@ goToPage: pageMorph
 				fractions: (0 @ 0 corner: 1 @ 1)
 				offsets: (self operatorOffset corner: 0 @ 0)).
 	currentPage := pageMorph.
-	self changed: #currentPage
+	self triggerEvent: #currentPage

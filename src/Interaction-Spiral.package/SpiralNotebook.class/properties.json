@@ -11,7 +11,8 @@
 		"soundSettings",
 		"readOnly",
 		"fullScreen",
-		"pageSize"
+		"pageSize",
+		"operators"
 	],
 	"name" : "SpiralNotebook",
 	"type" : "normal"

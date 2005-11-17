@@ -1,1 +1,0 @@
-I represent an action a human could take on a SpiralNotebook.  I extend my superclass to allow help messages and buttons bearing icons instead of text labels.

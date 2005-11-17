@@ -4,5 +4,6 @@ initialize
 	super initialize.
 	fullScreen := false.
 	readOnly := false.
+	operators := Set new.
 	soundSettings := self defaultSoundSettingsClass new.
 	self removeEverything; extent: self defaultExtent; hResizing: #rigid; vResizing: #rigid; layoutInset: 0; beSticky; changeProportionalLayout

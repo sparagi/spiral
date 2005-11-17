@@ -13,4 +13,4 @@ removePage: pageToRemove
 			[savedSubmorphs := savedSubmorphs 
 						collect: [:s | s = pageToRemove ifTrue: [currentPage] ifFalse: [s]].
 			self setProperty: #savedSubmorphs toValue: savedSubmorphs].
-	self changed: #sectionNavigationOperations
+	self triggerEvent: #sectionNavigationActions
