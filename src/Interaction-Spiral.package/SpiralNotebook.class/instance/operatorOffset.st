@@ -2,8 +2,7 @@ accessing
 operatorOffset
 	"Answer an appropriate offset for my operator."
 
-	| operators operatorExtent |
-	operators := self operators.
+	| operatorExtent |
 	operators ifEmpty: [^0 @ 0].
 	operatorExtent := operators only extent.
 	operatorExtent := operatorExtent x > operatorExtent y 
