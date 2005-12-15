@@ -1,8 +1,7 @@
 event handling
 displayPreferencesActions
 	"Answer an OrderedCollection containing all display 
-	preferences  
-	actions my instances support."
+	preferences  actions my instances support."
 	| result |
 	result := OrderedCollection new.
 	self allButtonActions
