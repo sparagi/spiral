@@ -1,6 +1,6 @@
 event handling
 mouseDown: evt
 
-	evt yellowButtonPressed
+	(evt yellowButtonPressed and: [self hasYellowButtonMenu])
 		ifTrue: [self invokeYellowMenu: evt].
 	super mouseDown: evt

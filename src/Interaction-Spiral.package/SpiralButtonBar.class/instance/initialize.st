@@ -2,6 +2,7 @@ initialization
 initialize
 	"Set my initial state."
 
+	hasYellowButtonMenu := true.
 	buttonCache := Dictionary new.
 	buttonRow := AlignmentMorph new.
 	buttonRow
@@ -12,7 +13,6 @@ initialize
 	super initialize.
 	self
 		clipSubmorphs: true;
-		initializeColors;
 		layoutInset: 0;
 		hResizing: #rigid;
 		addMorphBack: buttonRow

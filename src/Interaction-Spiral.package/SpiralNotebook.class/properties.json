@@ -12,6 +12,7 @@
 		"readOnly",
 		"fullScreen",
 		"pageSize",
+		"passDownColors",
 		"operators"
 	],
 	"name" : "SpiralNotebook",

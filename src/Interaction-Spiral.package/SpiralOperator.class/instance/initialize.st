@@ -4,5 +4,6 @@ initialize
 
 	super initialize.
 	self 
+		initializeColors;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap.

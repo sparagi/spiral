@@ -13,7 +13,8 @@
 		"transform",
 		"scrollLeft",
 		"scrollRight",
-		"visibleButtonCategories"
+		"visibleButtonCategories",
+		"hasYellowButtonMenu"
 	],
 	"name" : "SpiralButtonBar",
 	"type" : "normal"
