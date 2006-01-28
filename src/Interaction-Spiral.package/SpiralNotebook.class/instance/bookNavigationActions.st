@@ -1,30 +1,30 @@
 event handling
 bookNavigationActions
-	"Answer an OrderedCollection containing all book navigation  
+	"Answer an OrderedCollection containing all book navigation 
 	actions my instances support."
 	| result |
 	result := OrderedCollection new.
 	result
 		add: (GenericAction
-				label: 'first page'
+				label: 'First Page'
 				receiver: self
 				selector: #firstPage
 				arguments: #());
 		
 		add: (GenericAction
-				label: 'previous page'
+				label: 'Previous Page'
 				receiver: self
 				selector: #previousPage
 				arguments: #());
 		
 		add: (GenericAction
-				label: 'next page'
+				label: 'Next Page'
 				receiver: self
 				selector: #nextPage
 				arguments: #());
 		
 		add: (GenericAction
-				label: 'last page'
+				label: 'Last Page'
 				receiver: self
 				selector: #lastPage
 				arguments: #()).

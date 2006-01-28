@@ -5,7 +5,7 @@ allButtonActions
 	notebook
 		ifNotNil: [result
 				add: (GenericActions
-						label: 'section navigation'
+						label: 'Section Navigation'
 						receiver: notebook
 						selector: #sectionNavigationActions
 						arguments: #())].

@@ -6,7 +6,7 @@ interestingActions
 	result := OrderedCollection new.
 	result
 		add: (GenericActions
-				label: 'sound preferences'
+				label: 'Sound Preferences'
 				receiver: self
 				selector: #soundPreferencesActions
 				arguments: #()).

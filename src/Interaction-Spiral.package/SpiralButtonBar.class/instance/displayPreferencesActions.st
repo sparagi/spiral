@@ -1,14 +1,14 @@
 event handling
 displayPreferencesActions
 	"Answer an OrderedCollection containing all display 
-	preferences  actions my instances support."
+	preferences actions my instances support."
 	| result |
 	result := OrderedCollection new.
 	self allButtonActions
 		do: [:action | 
 			| operation | 
 			operation := ToggleAction
-						label: 'show ' , action label , ' tools'
+						label: 'Show ' , action label , ' Tools'
 						receiver: self
 						selector: #toggleVisibilityOfButtons:
 						arguments: {action}.

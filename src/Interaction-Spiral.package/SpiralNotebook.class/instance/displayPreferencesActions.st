@@ -1,11 +1,12 @@
 event handling
 displayPreferencesActions
-	"Answer an OrderedCollection containing all display preferences  
+	"Answer an OrderedCollection containing all display
+	preferences 
 	actions my instances support."
 	| result operation |
 	result := OrderedCollection new.
 	operation := ToggleAction
-				label: 'fill entire window'
+				label: 'Fill Entire Window'
 				receiver: self
 				selector: #toggleFullScreen
 				arguments: #().
