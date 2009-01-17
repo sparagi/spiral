@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BEL 6/26/2005 13:08",
-	"super" : "SpiralButtonBar",
+	"super" : "AnObsoleteSpiralButtonBar",
 	"category" : "Interaction-Spiral",
 	"classinstvars" : [ ],
 	"pools" : [ ],
